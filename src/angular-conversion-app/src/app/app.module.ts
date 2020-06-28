@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { InputAreaComponent } from './input-area/input-area.component';
@@ -14,6 +15,7 @@ import { OutputAreaComponent } from './output-area/output-area.component';
     OutputAreaComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule
   ],
   providers: [],
